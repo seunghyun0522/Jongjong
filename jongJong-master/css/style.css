@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+body {
+    background-color: #DC143C;
+}
+
+
+header {
+    display : block;
+    margin : auto;
+    padding: 1em 0 1em 0;
+}
+.inner {
+    padding: 0.8em 0;
+    text-align: center;
+    justify-content: center;
+}
+.logoImg {
+    width: 2.5em;
+    height: 2.5em;
+}
+.logo {
+    color: white;
+    font-size: 30px;
+}
+.subLogo {
+    color: white;
+    font-size: 15px;
+    padding: 0.2em 0 0 0;
+}
+
+
+.mapContainer {
+    width: 100%;
+    height: 460px;
+}
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+
+.path_info {
+    display: block;
+    background: #657186e3;
+    color: #fff;
+    text-align: center;
+    border-radius:4px;
+    width: 8em;
+}
+
+
+.search_wrap {
+    width: 100%;
+    padding: 5em 0 5em 0;
+    
+}
+.search_form {
+
+    display: flex;
+    justify-content: center;   
+}
+
+
+.caution_1 {
+    width: 80%;
+    color: white;
+    display: flex;
+
+    justify-content: center;
+    margin: auto;
+    padding: 0 0 1em 0;
+}
+.checkNav {
+    color: white;
+    padding: 1em 0 0 0;
+
+    text-align: center;
+    justify-content: center;
+}
+
+
+table {
+    width: 60%;
+}
+td {
+    width: 25%;
+}
+
+
+.caution_2 {
+    width: 80%;
+    color: white;
+    display: flex;
+
+    justify-content: center;
+    margin: auto;
+    padding: 1em 0 5em 0;
+}
+
+
+footer {
+    display : block;
+    margin : auto;
+}
+.inner {
+    width: 100%;
+    height: 20%;
+}
+.copyright {
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+@media only screen and (min-width: 1200px) {
+    /*가로가 1200px 보다 커지면 더 이상 늘어나지 X*/
+
+}
